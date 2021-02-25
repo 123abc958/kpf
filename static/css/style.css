@@ -1,0 +1,120 @@
+a{text-decoration:none!important;
+}
+
+.index-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#05FBFF, #1E00FF);  width: 100%;
+  height: 450px;
+}
+
+.index-container{
+  color: white;
+}
+
+
+/* experiences*/
+.experiences > h1{
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 30%;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+/* about */
+.about > h1{
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 20%;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+
+
+
+/* works */
+.works > h1{
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 20%;
+  margin: auto;
+}
+
+.works__content {
+  display: flex;
+}
+
+.works__contents{
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  padding: 25px;
+}
+/* worksはここまで---------- */
+
+
+/* posts */
+.posts > h1{
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 20%;
+  margin: auto;
+}
+.posts__content {
+  display: flex;
+  margin-bottom:10px;
+}
+
+.posts__contents{
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  padding: 25px;
+}
+.posts > .posts__content > .posts__contents > h5{
+  text-align: center;
+  /* border-bottom: 1px solid blue;
+  width: 20%; */
+  margin: auto;
+}
+
+
+/* postsはここまで---------- */
+
+/* skills */
+.skills{
+  margin-bottom: 100px;
+}
+
+.skills > h1{
+  text-align: center;
+  border-bottom: 1px solid blue;
+  width: 20%;
+  margin: auto;
+  margin-bottom:40px;
+}
+
+
+ul{
+  display: flex;
+  justify-content: center; 
+ }
+ 
+ li{
+   margin-left: 50px!important;
+   list-style: disc;
+ }
+ 

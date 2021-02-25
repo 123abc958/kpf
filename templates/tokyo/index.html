@@ -1,0 +1,250 @@
+{% extends 'base.html' %}
+{% block title %} インデックス | {{block.super}}{% endblock %}
+{% block content %}
+ 
+<div class="index-top">
+  <p class="index-container">KOICHI FUKUSHIMA' Portfolio Site</p>
+</div>
+
+
+<div class="about" id="about">
+  <h1>About</h1>
+  <table class="table table-borderless">
+    <tbody>
+      <tr class="text-center">        
+        <td>Name</td>
+        <td>{{ profile.name }}</td>       
+      </tr>
+      <tr class="text-center">
+        <td>Education</td>
+        <td>{{ profile.education }}</td>
+      </tr>
+      <tr class="text-center">
+        <td>GitHub</td>
+        <td>{{ profile.github }}</td>
+      </tr>
+      <tr class="text-center">
+        <td>Facebook</td>
+        <td>{{ profile.facebook }}</td>
+      </tr>
+      <tr class="text-center">
+        <td>Blog</td>
+        <td>{{ profile.blog }}</td>
+      </tr>
+      <tr class="text-center">
+        <td>Mail</td>
+        <td>{{ profile.mail }}</td>
+      </tr>
+      <tr class="text-center">
+        <td>Mobil</td>
+        <td>{{ profile.mobile }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+</div>
+
+<div class="experiences" id="experiences"> 
+    <h1>Experiences</h1>
+<!--  -->
+
+<section class="cd-timeline js-cd-timeline">
+  <div class="container max-width-lg cd-timeline__container">
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--picture">
+        <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h3>2020/01~present</h3>
+        <h2>株式会社ディー・エヌ・エー内定者アルバイト</h2>
+        <p class="color-contrast-medium">日比谷音楽祭向けスマートフォンアプリのバックエンド開発を経て、現在は社内システムの開発を行っています。他業種や他部署のメンバーを連携しつつ、ほぼ１人で要件定義から実装まで行っています。</p>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Jan 21</span>
+          <a href="#0" class="btn btn--subtle">Read more</a>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--movie">
+        <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h3>2019/01~present</h3>
+        <h2>CAMPHOR-コアメンバー</h2>
+        <p class="color-contrast-medium">京都のIT系学生コミュニティであるCAMPHOR-の運営を行っています。学生なら誰でも無料で使えるワークスペースの管理や勉強会の企画・開催などを行っています。</p>
+        
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Jan 18</span>
+          <a href="#0" class="btn btn--subtle">Read more</a>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--picture">
+        <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h3>2019/09</h3>
+        <h2>株式会社アカツキ就業型インターン</h2>
+        <p class="color-contrast-medium">OSSであるaktsk/atgenという静的解析を用いたGoのテストジェネレーターの機能追加やゲーム内通貨管理サービスの大規模なアプリケーション設計の改善を行いました。</p>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Jan 24</span>
+          <a href="#0" class="btn btn--subtle">Read more</a>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--location">
+        <img src="assets/img/cd-icon-location.svg" alt="Location">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h3>2019/08</h3>
+        <h2>株式会社AbemaTV就業型インターン</h2>
+        <p class="color-contrast-medium">SNSから番組への流入を増やすためにTwitterシェアに関する機能を追加しました。スケーラビリティを考慮しつつ仕様設計から実装、テストを全て行いました。</p>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Feb 14</span>
+          <a href="#0" class="btn btn--subtle">Read more</a>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--location">
+        <img src="assets/img/cd-icon-location.svg" alt="Location">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h2>株式会社ディー・エヌ・エーサマーインターンプロダクト開発コース 優勝</h2>
+        <p class="color-contrast-medium">「3日間で最高のアプリに作り直す」というミッションが課せられていたインターンにサーバーサイドエンジニアとして参加し、Goを用いたAPIの実装や負荷対策の実装を行い優勝しました。</p>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Feb 18</span>
+          <a href="#0" class="btn btn--subtle">Read more</a>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--movie">
+        <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <h2>Final Section</h2>
+        <p class="color-contrast-medium">This is the content of the last section</p>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">Feb 26</span>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> <!-- cd-timeline__block -->
+  </div>
+
+</section>
+  <!--  -->
+</div>
+<div class="works mt-5" id="works">
+  <h1>Works</h1>
+  <!-- start -->
+  <div class="works__content">
+    <div class="works__contents">
+      <a href="">内容</a>
+        <p>Memoito（めもいと）はTwitterと連携して、フォローしている人と紐付けてメモを保存することができるWebサービスです。オフ会で会った時に話した内容をメモしたり、フォローした理由をメモしておくことができます</p>
+     </div>
+     <div class="works__contents">
+      <a href="">内容</a>
+       <p>複数のRSSやAtomフィードなどから記事を取得し、一つのRSSやJSONを生成するライブQiitaなど任意の場所からデータを取得することができます。</p>
+     </div>
+  </div>
+  <!-- end -->
+    <!-- start -->
+    <div class="works__content">
+      <div class="works__contents">
+        <a href="">内容</a>
+        <p>Memoito（めもいと）はTwitterと連携して、フォローしている人と紐付けてメモを保存することができるWebサービスです。オフ会で会った時に話した内容をメモしたり、フォローした理由をメモしておくことができます</p>
+      </div>
+      <div class="works__contents">
+        <a href="">内容</a>
+       <p>Memoito（めもいと）はTwitterと連携して、フォローしている人と紐付けてメモを保存することができるWebサービスです。オフ会で会った時に話した内容をメモしたり、フォローした理由をメモしておくことができます</p>
+      </div>
+   </div>
+    <!-- end -->
+  <div class="works__content">
+    <div class="works__contents">
+      <a href="">内容</a>
+      <p>Memoito（めもいと）はTwitterと連携して、フォローしている人と紐付けてメモを保存することができるWebサービスです。オフ会で会った時に話した内容をメモしたり、フォローした理由をメモしておくことができます</p>
+    </div>
+    <div class="works__contents">
+      <a href="">内容</a>
+     <p>Memoito（めもいと）はTwitterと連携して、フォローしている人と紐付けてメモを保存することができるWebサービスです。オフ会で会った時に話した内容をメモしたり、フォローした理由をメモしておくことができます</p>
+    </div>
+   </div>
+</div>
+
+<!-- skill -->
+<!-- start -->
+<div class="skills" id="skills">
+  <h1>Skills</h1>
+    <div class="skills__contaner">
+      <ul class="text-secondary">
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>qqqqqqqq</li>
+        <li>ggg</li>
+      </ul>
+    </div>
+    
+    <div class="skills__contaner">
+      <ul class="text-secondary">
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>qqqqqqqq</li>
+        <li>ggg</li>
+      </ul>
+    </div>
+    <div class="skills__contaner">
+      <ul class="text-secondary">
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>qqqqqqqq</li>
+        <li>ggg</li>
+      </ul>
+    </div>
+</div>
+
+<!-- end -->
+
+<!-- post -->
+<!-- start -->
+<div class="posts" id="posts">
+  <h1>Posts</h1>
+  <div class="posts__content">  
+{% for post in post%}
+    <div class="posts__contents">
+      <h5>{{ post.title }}</h5>
+      <a href="">{{ post.text}}</a> 
+    </div>
+{% endfor %}
+  </div>
+</div>
+<!-- end -->
+
+
+  {% endblock %}
+
+
+  
